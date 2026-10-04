@@ -769,12 +769,15 @@ Kesimpulannya adalah DNS berhasil mengarahkan hostname internal ke alamat IP mil
 20. Setelah semua penyelesaian selesai, pastikan semua service dan konfigurasi yang telah dikerjakan dari awal tetap berjalan normal dan berstatus autostart saat node di-restart (khusus untuk kasus ini, abaikan konfigurasi nomor 18 dan biarkan koordinat kembali normal).
 
 Service apache masih tetap berjalan berjalan 
+
 ![alt](assets/20_service-running-apache.png)
 
 Service nginx masih tetap berjalan berjalan 
+
 ![alt](assets/20_service-running-nginx.png)
 
 Service bind9 masih tetap berjalan berjalan 
+
 ![alt](assets/20_service-running-bind9.png)
 
 Agar konfigurasi otomatis berjalan ketika node direstart, kita menggunakan master script di setiap node, mengonfigurasikannya di settingan setiap node  
